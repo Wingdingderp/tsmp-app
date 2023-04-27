@@ -7,7 +7,7 @@ import type { ChatInputInteraction, Command } from "disploy";
 import { env } from "../../env/server.mjs";
 import { EmbedColor } from "../utils/embeds";
 
-const ChangeLogChannel = "1057651322901495859";
+const ChangeLogChannel = "1080623292869791896";
 
 const ChangeLog: Command = {
   name: "changelog",

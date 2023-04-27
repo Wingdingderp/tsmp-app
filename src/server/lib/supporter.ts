@@ -51,7 +51,7 @@ async function performSupporterSideEffects(
           Routes.guildMemberRole(
             env.DISCORD_GUILD_ID,
             discordUser.id,
-            "1077383525579378718" // Yes I know this is bad, I could not be bothered to go through the effort of setting another env variable
+            "1080623291712163852" // Yes I know this is bad, I could not be bothered to go through the effort of setting another env variable
           )
         );
       } else {
@@ -59,7 +59,7 @@ async function performSupporterSideEffects(
           Routes.guildMemberRole(
             env.DISCORD_GUILD_ID,
             discordUser.id,
-            "1077383525579378718"
+            "1080623291712163852"
           )
         );
       }

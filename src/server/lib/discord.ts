@@ -48,7 +48,7 @@ export async function updateRoleMeta(
       Routes.guildMemberRole(
         env.DISCORD_GUILD_ID,
         discordUser.id,
-        "1054689107248427069" // Yes I know this is bad, I could not be bothered to go through the effort of setting another env variable
+        "1080623291712163851" // Yes I know this is bad, I could not be bothered to go through the effort of setting another env variable
       )
     );
   } else {
@@ -56,7 +56,7 @@ export async function updateRoleMeta(
       Routes.guildMemberRole(
         env.DISCORD_GUILD_ID,
         discordUser.id,
-        "1054689107248427069"
+        "1080623291712163851"
       )
     );
   }
